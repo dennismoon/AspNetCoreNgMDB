@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{39CD27CD-9C2E-4B6F-BFAD-A214D54DA0BF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CADD0746-7973-4DBA-A7AF-5CD4EA541896}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{80964C28-9882-469B-B44A-72229A5EBD7C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCoreNgMDB", "src\AspNetCoreNgMDB\AspNetCoreNgMDB.xproj", "{50AE3B88-46E0-452E-AE27-549F600F35A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50AE3B88-46E0-452E-AE27-549F600F35A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50AE3B88-46E0-452E-AE27-549F600F35A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50AE3B88-46E0-452E-AE27-549F600F35A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50AE3B88-46E0-452E-AE27-549F600F35A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50AE3B88-46E0-452E-AE27-549F600F35A7} = {CADD0746-7973-4DBA-A7AF-5CD4EA541896}
+	EndGlobalSection
+EndGlobal
